@@ -1,0 +1,32 @@
+{
+  "fonte": "Wikidata Query Service (SPARQL)",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "data": "2026-06-05",
+  "consulta_sparql": "SELECT ?taxonName ?taxon ?vernacular WHERE {\n      VALUES ?taxonName { \"Hydrochoerus hydrochaeris\" \"Caiman latirostris\" \"Myocastor coypus\" \"Blastocerus dichotomus\" \"Jacana jacana\" }\n      ?taxon wdt:P225 ?taxonName .\n      OPTIONAL { ?taxon wdt:P1843 ?vernacular . FILTER(LANG(?vernacular) = \"pt\") }\n    }",
+  "taxa": {
+    "Jacana jacana": {
+      "qid": "Q856201",
+      "vernaculos_pt": [
+        "jaçanã",
+        "jaçanã-de-fronte-vermelha",
+        "jaçanã-sul-americana"
+      ]
+    },
+    "Hydrochoerus hydrochaeris": {
+      "qid": "Q131538",
+      "vernaculos_pt": []
+    },
+    "Myocastor coypus": {
+      "qid": "Q187704",
+      "vernaculos_pt": []
+    },
+    "Blastocerus dichotomus": {
+      "qid": "Q504501",
+      "vernaculos_pt": []
+    },
+    "Caiman latirostris": {
+      "qid": "Q644453",
+      "vernaculos_pt": []
+    }
+  }
+}

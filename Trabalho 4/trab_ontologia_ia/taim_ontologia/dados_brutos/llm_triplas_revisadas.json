@@ -1,0 +1,14 @@
+{
+  "fonte": "LLM (Claude 4.x) sobre dados_brutos/amostra_local_taim.txt",
+  "data": "2026-06-05",
+  "observacao": "Apenas triplas APROVADAS na revisao humana (ver protocolos_llm/protocolo_extracao_llm.md).",
+  "triplas_mapeaveis": [
+    {"sujeito": "Capivara", "relacao": "habita", "objeto": "banhado_do_taim", "individuo_existente": "capivara_01"},
+    {"sujeito": "Capivara", "relacao": "atravessa", "objeto": "BR_471", "individuo_existente": "capivara_01"},
+    {"sujeito": "Ratao-do-banhado", "relacao": "habita", "objeto": "banhado_do_taim", "novo_individuo": "ratao_do_banhado", "nomeComum": "Ratão-do-banhado", "nomeCientifico": "Myocastor coypus"}
+  ],
+  "anotacoes_nao_mapeadas": [
+    {"sujeito": "Neblina", "relacao": "reduz", "objeto": "visibilidade", "nota": "Modelado como FatorVisibilidade/visibilidadeMetros, nao como relacao."},
+    {"sujeito": "Chuva forte", "relacao": "reduz", "objeto": "visibilidade", "nota": "Idem."}
+  ]
+}

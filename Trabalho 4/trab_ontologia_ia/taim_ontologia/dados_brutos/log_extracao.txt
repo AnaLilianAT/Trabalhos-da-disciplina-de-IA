@@ -1,0 +1,3 @@
+[2026-06-05T16:29:04] Wikipedia OK: 0 nomes científicos, 11 termos de fauna extraídos.
+[2026-06-05T16:29:04] Wikidata OK: 5 táxons resolvidos (Jacana jacana, Hydrochoerus hydrochaeris, Myocastor coypus, Blastocerus dichotomus, Caiman latirostris).
+[2026-06-05T16:29:04] LLM OK: 3 triplas revisadas carregadas (protocolo documentado).

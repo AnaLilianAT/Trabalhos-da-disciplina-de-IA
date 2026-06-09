@@ -1,0 +1,4 @@
+algorithm,k,inertia,n_clusters_found,silhouette_score,davies_bouldin_index,calinski_harabasz_score,used_sampling,sampling_strategy,original_size,sample_size,linkage,n_clusters,configuration,eps,min_samples,n_noise_points,noise_percentage
+kmeans,2.0,203618.1875264338,2,0.15631450172425804,2.331392516771861,3545.9118292440185,True,random,253680,20000,,,,,,,
+agglomerative,,,2,0.2119435047507543,0.6598646551488994,2.227136914625087,True,stratified,253680,10000,single,2.0,single_k_2,,,,
+dbscan,,,3,0.41943618017829254,0.8218932399073019,179.76646121942787,True,random,253680,10000,,,eps_0.5_min_samples_20,0.5,20.0,9825.0,98.25

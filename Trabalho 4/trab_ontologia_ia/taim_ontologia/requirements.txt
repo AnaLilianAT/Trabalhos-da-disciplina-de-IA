@@ -1,0 +1,7 @@
+owlready2>=0.46
+rdflib>=7.0
+requests
+beautifulsoup4
+# spaCy e scikit-learn são opcionais — só se as fases 3/5 forem feitas:
+# spacy>=3.7
+# scikit-learn>=1.3
