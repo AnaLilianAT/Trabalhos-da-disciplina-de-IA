@@ -1,0 +1,20 @@
+{
+  "fonte": "Wikipedia (pt) — Estação Ecológica do Taim",
+  "url": "https://pt.wikipedia.org/wiki/Esta%C3%A7%C3%A3o_Ecol%C3%B3gica_do_Taim",
+  "data": "2026-06-12",
+  "nomes_cientificos": [],
+  "termos_fauna": [
+    "Ronco do Bugio",
+    "biguá",
+    "capivara",
+    "cisne-de-pescoço-preto",
+    "garça-moura",
+    "jacaré-de-papo-amarelo",
+    "lontra",
+    "ratão-do-banhado",
+    "tachã",
+    "tartaruga",
+    "tuco-tuco"
+  ],
+  "metodo": "scraping requests+BeautifulSoup"
+}
