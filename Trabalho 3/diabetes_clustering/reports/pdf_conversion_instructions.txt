@@ -1,9 +1,0 @@
-Conversao manual do relatorio para PDF
-
-1. Instale o pandoc: https://pandoc.org/installing.html
-2. Opcionalmente instale uma engine LaTeX, como TinyTeX ou MiKTeX.
-3. Execute na raiz do projeto:
-
-   pandoc reports/report.md -o reports/report.pdf
-
-4. Se preferir, abra reports/report.html no navegador e use a impressao em PDF.

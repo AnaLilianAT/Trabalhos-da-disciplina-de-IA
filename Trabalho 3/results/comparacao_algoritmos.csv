@@ -1,0 +1,4 @@
+algoritmo,config,espaco,n_clusters,n_ruido,silhouette,davies_bouldin,calinski_harabasz
+KMeans,k=2,dados completos (70.692),2,0,0.1670852697673135,2.543806104426956,9645.08345016531
+Agglomerative,"complete, k=2",amostra (7000),2,0,0.17794736453973067,2.662262085309107,458.16947431141284
+DBSCAN,"eps=3.0, min_samples=10",amostra (7000),7,1564,0.13669779648309754,1.4783944183827207,153.15003361625182
