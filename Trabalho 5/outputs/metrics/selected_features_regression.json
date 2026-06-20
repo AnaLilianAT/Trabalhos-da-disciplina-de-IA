@@ -1,0 +1,31 @@
+{
+  "criterio": "MI acumulada >= 90% da MI total",
+  "n_inicial": 21,
+  "n_selecionado": 12,
+  "n_descartado": 9,
+  "selecionadas": [
+    "GenHlth",
+    "HighBP",
+    "Diabetes_binary",
+    "DiffWalk",
+    "Sex",
+    "PhysActivity",
+    "Age",
+    "PhysHlth",
+    "Education",
+    "Income",
+    "MentHlth",
+    "HighChol"
+  ],
+  "descartadas": [
+    "Veggies",
+    "NoDocbcCost",
+    "Smoker",
+    "HeartDiseaseorAttack",
+    "Fruits",
+    "Stroke",
+    "AnyHealthcare",
+    "CholCheck",
+    "HvyAlcoholConsump"
+  ]
+}

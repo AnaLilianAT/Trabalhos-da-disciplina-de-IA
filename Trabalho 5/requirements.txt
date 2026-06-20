@@ -1,0 +1,23 @@
+# Versões alinhadas ao ambiente de desenvolvimento (Python 3.11)
+numpy==1.26.2
+pandas==2.2.0
+scikit-learn==1.6.1
+matplotlib==3.8.2
+seaborn==0.13.2
+
+# MLPs (Etapas 4, 5, 6, 7)
+tensorflow            # ou tensorflow-cpu
+
+# Otimização de hiperparâmetros (Etapa 6)
+optuna
+
+# Extras (pontuação adicional)
+shap                  # interpretabilidade
+xgboost               # modelo clássico de comparação
+imbalanced-learn      # opcional (SMOTE)
+
+# Obtenção opcional dos dados
+kagglehub             # opcional (download automático)
+
+# Notebooks
+jupyter

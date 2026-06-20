@@ -1,0 +1,4 @@
+tarefa,arquivo,n_amostras,n_atributos,alvo,tipo_problema
+binary,diabetes_binary_health_indicators_BRFSS2015.csv,253680,21,Diabetes_binary,classificação binária
+multiclass,diabetes_012_health_indicators_BRFSS2015.csv,253680,21,Diabetes_012,classificação multiclasse
+regression,diabetes_binary_health_indicators_BRFSS2015.csv,253680,21,BMI,regressão

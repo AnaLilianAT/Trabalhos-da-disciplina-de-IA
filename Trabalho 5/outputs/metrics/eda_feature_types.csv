@@ -1,0 +1,22 @@
+feature,tipo
+HighBP,binária (0/1)
+HighChol,binária (0/1)
+CholCheck,binária (0/1)
+BMI,contínua / contagem
+Smoker,binária (0/1)
+Stroke,binária (0/1)
+HeartDiseaseorAttack,binária (0/1)
+PhysActivity,binária (0/1)
+Fruits,binária (0/1)
+Veggies,binária (0/1)
+HvyAlcoholConsump,binária (0/1)
+AnyHealthcare,binária (0/1)
+NoDocbcCost,binária (0/1)
+GenHlth,ordinal (inteiro com ordem)
+MentHlth,contínua / contagem
+PhysHlth,contínua / contagem
+DiffWalk,binária (0/1)
+Sex,binária (0/1)
+Age,ordinal (inteiro com ordem)
+Education,ordinal (inteiro com ordem)
+Income,ordinal (inteiro com ordem)
