@@ -24,3 +24,5 @@ outputs/models/*.h5
 Thumbs.db
 .vscode/
 .idea/
+
+PLANO_IMPLEMENTACAO.md
