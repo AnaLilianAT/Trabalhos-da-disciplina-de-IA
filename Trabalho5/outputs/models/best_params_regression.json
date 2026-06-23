@@ -1,0 +1,17 @@
+{
+  "objetivo": "RMSE",
+  "direcao": "minimize",
+  "valor_validacao": 5.9221578876811645,
+  "n_trials": 40,
+  "n_podados": 24,
+  "best_params": {
+    "n_layers": 1,
+    "units_l0": 256,
+    "optimizer": "adam",
+    "activation": "relu",
+    "dropout": 0.11883026394846162,
+    "learning_rate": 0.0006917271753674749,
+    "batch_size": 64,
+    "l2": 0.0012127785166346245
+  }
+}

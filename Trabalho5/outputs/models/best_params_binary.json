@@ -1,0 +1,17 @@
+{
+  "objetivo": "ROC-AUC",
+  "direcao": "maximize",
+  "valor_validacao": 0.8281961969000053,
+  "n_trials": 40,
+  "n_podados": 16,
+  "best_params": {
+    "n_layers": 1,
+    "units_l0": 256,
+    "optimizer": "adam",
+    "activation": "relu",
+    "dropout": 0.34881916564298093,
+    "learning_rate": 0.0001341964972079628,
+    "batch_size": 64,
+    "l2": 1.1584359345421857e-05
+  }
+}

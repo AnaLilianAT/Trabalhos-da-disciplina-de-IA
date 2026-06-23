@@ -1,0 +1,6 @@
+modelo,mae,rmse,r2,tempo_treino_s,tempo_inferencia_s
+LinearRegression,4.319,6.1575,0.1367,0.02,0.0009
+Ridge,4.319,6.1575,0.1367,0.01,0.0008
+Lasso,4.3189,6.1575,0.1367,0.05,0.0007
+RandomForest,4.5511,6.4528,0.0519,5.11,0.4232
+XGBoost,4.1968,6.0374,0.17,0.5,0.0129

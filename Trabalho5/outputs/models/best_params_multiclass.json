@@ -1,0 +1,18 @@
+{
+  "objetivo": "F1 macro",
+  "direcao": "maximize",
+  "valor_validacao": 0.4427019274077944,
+  "n_trials": 40,
+  "n_podados": 15,
+  "best_params": {
+    "n_layers": 2,
+    "units_l0": 256,
+    "units_l1": 32,
+    "optimizer": "adam",
+    "activation": "elu",
+    "dropout": 0.094002281105948,
+    "learning_rate": 0.004234819606456936,
+    "batch_size": 256,
+    "l2": 0.00402343705151094
+  }
+}

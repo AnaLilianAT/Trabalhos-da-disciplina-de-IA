@@ -1,0 +1,4 @@
+modelo,roc_auc,pr_auc,f1,tempo_treino_s,tempo_inferencia_s
+LogisticRegression,0.8197,0.3925,0.4411,0.18,0.0026
+RandomForest,0.7962,0.359,0.2326,2.18,0.2225
+XGBoost,0.823,0.4162,0.4421,0.7,0.0225

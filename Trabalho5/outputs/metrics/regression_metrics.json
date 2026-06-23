@@ -1,0 +1,61 @@
+{
+  "task": "regression",
+  "target": "BMI",
+  "n_features": 21,
+  "epochs": 76,
+  "train_time_s": 37.49,
+  "validation": {
+    "mae": 4.18678474629275,
+    "mse": 35.29835790468529,
+    "rmse": 5.941242117999004,
+    "r2": 0.1801494397995561
+  },
+  "test": {
+    "mae": 4.185824279715984,
+    "mse": 36.29391082993857,
+    "rmse": 6.0244427816967905,
+    "r2": 0.17359423554123177
+  },
+  "classical_comparison": [
+    {
+      "modelo": "LinearRegression",
+      "mae": 4.319,
+      "rmse": 6.1575,
+      "r2": 0.1367,
+      "tempo_treino_s": 0.02,
+      "tempo_inferencia_s": 0.0009
+    },
+    {
+      "modelo": "Ridge",
+      "mae": 4.319,
+      "rmse": 6.1575,
+      "r2": 0.1367,
+      "tempo_treino_s": 0.01,
+      "tempo_inferencia_s": 0.0008
+    },
+    {
+      "modelo": "Lasso",
+      "mae": 4.3189,
+      "rmse": 6.1575,
+      "r2": 0.1367,
+      "tempo_treino_s": 0.05,
+      "tempo_inferencia_s": 0.0007
+    },
+    {
+      "modelo": "RandomForest",
+      "mae": 4.5511,
+      "rmse": 6.4528,
+      "r2": 0.0519,
+      "tempo_treino_s": 5.11,
+      "tempo_inferencia_s": 0.4232
+    },
+    {
+      "modelo": "XGBoost",
+      "mae": 4.1968,
+      "rmse": 6.0374,
+      "r2": 0.17,
+      "tempo_treino_s": 0.5,
+      "tempo_inferencia_s": 0.0129
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+tarefa,metrica,baseline_teste,otimizado_teste,delta,baseline_tempo_treino_s,otimizado_tempo_treino_s,n_trials,n_podados
+binary,ROC-AUC,0.8262081737749918,0.8267,0.0005,18.09,79.08,40,16
+multiclass,F1 macro,0.4235217395177929,0.4426,0.019,13.81,23.71,40,15
+regression,RMSE,6.0244427816967905,6.0115,-0.013,37.49,70.21,40,24

@@ -1,0 +1,4 @@
+modelo,f1_macro,tempo_treino_s,tempo_inferencia_s
+LogisticRegression,0.426,0.96,0.0037
+RandomForest,0.3832,2.25,0.2486
+XGBoost,0.4001,1.27,0.035
